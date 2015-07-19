@@ -8,6 +8,8 @@ $('#intro_li').addClass('selected');
 }
 
 function load(addr) {
+		window.clearTimeout(timed);
+	
 $('#logo_hero').animate({opacity: 0.05}, 500);
 
 	$("#nav li").removeClass('selected');
