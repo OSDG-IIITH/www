@@ -3,7 +3,7 @@
 
 <p><a href="https://www.linkedin.com/in/adhishsingla">Adhish Singla</a>: The OSDG logo</p>
 
-<p><a href="http://vartikaharlalka.wordpress.com">Vatika Harlalka</a>: Static page content</p>
+<p><a href="http://vatikaharlalka.wordpress.com">Vatika Harlalka</a>: Static page content</p>
 <br />
 <br />
 <br />
