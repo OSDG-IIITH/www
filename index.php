@@ -17,7 +17,7 @@
 
 <div id="container">
 </div>
-<div id="footer">&copy; OSDG : IIIT-Hyderabad &bull; <span class="link" onclick="load('contribute.php')">Contribute to this website!</a></div>
+<div id="footer">&copy; OSDG : IIIT-Hyderabad &bull; <span class="link" onclick="load('contribute.php')">See Contributors</a></div>
 </body>
 <script src="./js/jquery.js"></script>
 <script src="./js/jqueryui.js"></script>
