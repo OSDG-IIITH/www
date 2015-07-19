@@ -117,7 +117,7 @@ p {
 
 <div id="container">
 </div>
-<div id="footer"><a href="http://mrinaldhar.com">Designed by Mrinal Dhar</a> &bull; &copy; OSDG : IIIT-Hyderabad &bull; <a href="https://github.com/mrinaldhar/osdg-website">Contribute to this website!</a></div>
+<div id="footer"><a href="http://mrinaldhar.com">Designed by Mrinal Dhar</a> &bull; &copy; OSDG : IIIT-Hyderabad &bull; <a href="https://github.com/OSDG-IIITH/www">Contribute to this website!</a></div>
 </body>
 <script src="./js/jquery.js"></script>
 <script src="./js/jqueryui.js"></script>
