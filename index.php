@@ -65,7 +65,11 @@ position: fixed;
 		font-family: myriadl;
 		width: 100%;
 		text-align: center;
+<<<<<<< HEAD
 		font-size: 1em;
+=======
+		font-size: 1.2em;
+>>>>>>> 2a45931fd46f2f75dcef03199b77081c83e5f527
 		color: #6a6a6a;
 		padding-bottom: 10px;
 		padding-top: 20px;
