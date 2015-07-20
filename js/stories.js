@@ -5,7 +5,7 @@ load_stories();
 
 			$.ajax({
  	 type: "GET",
- 	 url: "stories.json",
+ 	 url: "stories/stories.json",
  	 async: false,
 	success:function(response){
                     stories = response;
