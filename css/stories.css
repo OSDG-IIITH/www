@@ -16,7 +16,13 @@ h1 {
 	margin: 0px;
 }
 #stories_list {
-	height: 100%;
+	vertical-align: top;
+	height: 80%;  /* Use a javascript fix to set height */
+	width: 24%;
+	position: fixed;
+	overflow-y: auto;
+
+	/*paddin-bottom: 150px;*/
 	/*background-color: blue;*/
 	list-style-type: none;
 	padding: 0px;
@@ -100,4 +106,7 @@ small {
 	font-family: myriad;
 	font-size: 0.5em;
 	color: gray;
+}
+#stories_container tr td {
+	vertical-align: top;
 }
