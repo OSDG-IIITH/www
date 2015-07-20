@@ -1,117 +1,21 @@
-@font-face {
-		src: url('../fonts/myriad.otf');
-		font-family: myriad;
-	}
-	@font-face {
-		src: url('../fonts/myriadl.otf');
-		font-family: myriadl;
-	}
-	body, html {
-		margin: 0 auto;
-		/*text-align: center;*/
-		padding: 0px;
-		font-family: myriadl;
-	}
-	h1 {
-		font-size: 3em;
-		padding-top: 0px;
-		padding-bottom: 5px;
-	}
-	#logo_hero {
-position: fixed;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-		width: 50%;
-	}
-	#nav {
-		font-family: myriadl;
-		font-size: 1.5em;
-		list-style-type: none;
-		color: #5a5a5a;
-		position: fixed;
-		top: 0px;
-		padding: 0px;
-		z-index: 9;
-		margin: 0px;
-		left: 0px;
-		width: 100%;
-		text-align: center;
-		background-color: rgba(255,255,255,0.9);
-		box-shadow: 0 0 1px black;
-
-	}
-	.item:hover {
-		background-color: rgba(0,0,0,0.8);
-		box-shadow: 0 0 0 1px black;
-		color: white;
-		cursor: pointer;
-	}
-	#nav li {
-		display: inline-block;
-		padding: 20px;
-		padding-left: 40px;
-		padding-right: 40px;
-		margin: 0px;
-	}
-	#footer {
-		position: fixed;
-		bottom: 0px;
-		font-family: myriadl;
-		width: 100%;
-		text-align: center;
-		font-size: 1.1em;
-		color: #6a6a6a;
-		padding-bottom: 10px;
-		padding-top: 10px;
-
-		background-color: rgba(255,255,255,0.9);
-	}
-	.selected {
-		background-color: rgba(0,0,0,0.8);
-		box-shadow: 0 0 0 1px black;
-		color: white;
-	}
-	.anim {
-		-o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;
-} 
-a {
-	text-decoration: underline;
-color: black;
-
-}
-h2 {
-	font-size: 2.0em;
-}
-.link {
-	cursor: pointer;
-	color: black;
-}
 #container {
 	top: 120px;
 	position: absolute;
-	width: 80%;
+	width: 45%;
 	left: 10%;
-	padding-bottom: 150px;
+	margin-bottom: 200px;
 	text-align: justify;
+
+	padding-bottom: 100px;
 }
 p {
-	font-size: 1.3em;
+
+	padding-bottom: 20px;
 }
-.item:hover {
-	/*border: 0px;*/
-	box-shadow: 0 0 0px black;
-}
-#stories_li:hover {
-	color: black;
-}
-big {
-	font-size: 1.3em;
+#logo_right {
+	position: fixed;
+	right: 10%;
+	top: 200px;
+	width: 30%;
+	max-width: 30%;
 }
