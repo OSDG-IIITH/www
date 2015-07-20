@@ -1,0 +1,18 @@
+{
+	"stories":[ 
+		{
+			"author": "Mrinal Dhar",
+			"filename": "mrinald.txt",
+			"org": "Mozilla",
+			"tags": "Javascript, Devtools"
+		},
+		{
+			"author": "Amogh Pradeep",
+			"filename": "amoghbl1.txt",
+			"org":"Tor",
+			"tags": "Guardian Project, PGP, Orbot"
+		}
+
+
+	]	
+}
