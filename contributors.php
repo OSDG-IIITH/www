@@ -9,7 +9,7 @@
 
 <div id="container">
 
-	<h1>Contributors to this website</h1>
+	<h1>Major Contributors to this website</h1>
 <p><a href="http://mrinaldhar.com">Mrinal Dhar</a>: Website Design</p>
 
 <p><a href="https://www.linkedin.com/in/adhishsingla">Adhish Singla</a>: The OSDG logo</p>
@@ -20,7 +20,7 @@
 <br />
 <br />
 <br />
-<p>Join the list! Start now by forking <a href="https://github.com/OSDG-IIITH/www">this repository</a>.</p>
+<p>Wanna help make this website better? Start now by forking <a href="https://github.com/OSDG-IIITH/www">this repository</a>.</p>
 
 </div>
 <?php include_once('footer.php'); ?>
