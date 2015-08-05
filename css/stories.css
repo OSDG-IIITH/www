@@ -1,34 +1,36 @@
 .selected_story {
-		border-left: 5px solid rgba(0,0,0,0.8);
-	}
+	border-left: 5px solid rgba(0,0,0,0.8);
+}
 
-	#stories_container {
+#stories_container {
 	height: 100%;
 	width: 100%;
 	/*background-color: pink;*/
 }
+
 h1 {
 	margin-top: 0px;
 	padding-top: 0px;
 }
+
 #stories_container tr td {
 	padding: 0px;
 	margin: 0px;
 }
+
 #stories_list {
 	vertical-align: top;
 	height: 80%;  /* Use a javascript fix to set height */
 	width: 24%;
 	position: fixed;
 	overflow-y: auto;
-
 	/*paddin-bottom: 150px;*/
 	/*background-color: blue;*/
 	list-style-type: none;
 	padding: 0px;
 }
-#stories_list li:not(.control_item) {
 
+#stories_list li:not(.control_item) {
 	display: block;
 	font-size: 1.4em;
 	padding: 20px;
@@ -40,10 +42,12 @@ h1 {
 	/*background-color: white;*/
 	/*padding-left*/
 }
+
 #stories_list li:hover {
 		background-color: rgba(0,0,0,0.1);
 		cursor: pointer;
 }
+
 #stories_container tr #stories_content {
 	white-space: pre-wrap;
 	vertical-align: top;
@@ -62,27 +66,32 @@ h1 {
 	display: inline-block;
 	color: white;
 }
+
 .tags {
 	color: rgba(0,0,0,0.7);
 	font-size: 0.7em;
 }
+
 h1 {
 	font-size: 2em;
 }
+
 p {
 	font-size: 1em;
 }
+
 #sort_selector tr td {
 	margin:0;
 	padding: 0;
 	height: 100%;
-
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 #sort_selector {
 	height: 100%;
 }
+
 .control_item {
 	padding: 0px;
 	margin: 0px;
@@ -91,6 +100,7 @@ p {
 	width: 100%;
 	margin-top: 10px;
 }
+
 #story_search {
 	font-family: myriadl;
 	height: 100%;
@@ -100,6 +110,7 @@ p {
 	width: 100%;
 	font-size: 1em;
 }
+
 small {
 	text-transform: uppercase;
 	margin-left: 5px;
@@ -107,6 +118,7 @@ small {
 	font-size: 0.5em;
 	color: gray;
 }
+
 #stories_container tr td {
 	vertical-align: top;
 }
