@@ -25,7 +25,7 @@ Here are some students from IIIT who write about their experiences contributing 
 
 These are simply personal anecdotes though, which may or may not hold true in your case so we'd still advise you to feel free to explore the community yourself and find your niche :)
 
-If you'd like to share your story with the world like all these people, <a href="https://github.com/OSDG-IIITH/www/blob/master/stories/CONTRIBUTE.md">see how to do that</a>. 
+If you'd like to share your story with the world like all these people, <a href="https://github.com/OSDG-IIITH/www/blob/master/stories/CONTRIBUTE.md">see how to do that</a>.
 </p></td></tr>
 </table>
 </div>
@@ -34,6 +34,7 @@ If you'd like to share your story with the world like all these people, <a href=
 <script src="./js/jquery.js"></script>
 <script src="./js/jqueryui.js"></script>
 <script src="./js/standard.js"></script>
+<script src="./js/marked.min.js"></script>
 <script src="./js/stories.js"></script>
 
 <script>
