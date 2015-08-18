@@ -84,11 +84,7 @@ padding: 0px;
 		color: white;
 	}
 	
-	.anim {
-		-o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+.anim {
   /* ...and now for the proper property */
   transition:.5s;
 } 
