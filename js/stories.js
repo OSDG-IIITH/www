@@ -5,7 +5,7 @@ function load_stories() {
     $.ajax({
         type: 'GET',
         url: 'stories/stories.json',
-        async: false,
+        async: true,
         success: function(response) {
             stories = JSON.parse(response);
             stories['stories'].sort(function(a, b) {
@@ -69,7 +69,7 @@ function getStory(index) {
         $.ajax({
             type: 'GET',
             url: 'stories/' + stories['stories'][index]['filename'],
-            async: false,
+            async: true,
             success: function(response) {
                 $('#stories_content').text(response);
                 $('#stories_content').fadeIn();
