@@ -1,8 +1,7 @@
 .selected_story {
 		border-left: 5px solid rgba(0,0,0,0.8);
-	}
-
-	#stories_container {
+}
+#stories_container {
 	height: 100%;
 	width: 100%;
 	/*background-color: pink;*/
