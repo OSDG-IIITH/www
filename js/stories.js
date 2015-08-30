@@ -11,14 +11,14 @@ load_stories();
                     stories = response;
                 },
   });
-		
+
 			stories["stories"].sort(function(a, b) {
    			return a["author"].localeCompare(b["author"]);
 			});
 			render_list();
 
 
-			
+
 
 	}
 
@@ -56,11 +56,12 @@ load_stories();
  	 url: "stories/"+stories["stories"][index]["filename"],
  	 async: false,
 	success:function(response){
-		$('#stories_content').text(response);
+		var htmlContent = marked(response);
+		$('#stories_content').html(htmlContent);
 		$('#stories_content').fadeIn();
 
                 },
   });
 		});
-		
+
 	}
