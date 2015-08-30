@@ -1,0 +1,41 @@
+I love starting my blog posts with some amazing quote. But well, not all like brainy quotes and not all like cool quotes. But something related to "sex" attracts a lot of attention many a times. So, there you go :
+
+“Software is like sex: it's better when it's free.”
+-Linus Torvalds
+
+Wow! Right?
+
+Well, there are a few questions and answers below which are intended to help new Open Source aspirants. I hope this helps. :)
+
+What organization did you participate in?
+
+I contributed to an organization called Ballistic Research Laboratory - Computer Aided Design, shortly called BRL-CAD.
+It's quite interesting and impressive that BRL-CAD has the oldest source code repository -- it is being developed since 1983. Yes, it is the oldest CAD system alive and is still in active development.
+
+What exactly do they do?
+
+Quoting from an article on ARL (U.S. Army Research Laboratory) : "... there arose a need to do Computer simulations and Engineering analysis of combat vehicle systems and environments ...". That is the reason why this CAD system was started.
+You can read in detail about this on the "About" BRL-CAD page on my blog (http://brlcaddev.wordpress.com).
+
+Which part do you work on?
+
+There are many analysis tools in BRL-CAD which are used to check for overlaps, air gaps, etc. or used to calculate the weight, volume, centroid, moment of inertia, etc. of various models in a scene database. These tools basically use raytracing as a method to do the analysis. 
+I won't go much in detail about this, because it is out of the scope of this answer. In short, I'm working on developing a public API which puts together the best of all these tools and provides a unified framework to the user.
+
+The tools that I have studied include gqa, rtweight, rtarea and rtcheck.
+
+What skills did it require?
+
+It required old school C knowledge (it involves a lot of branching in the code and complex gotos and structures spanning hundreds of lines, etc.), knowledge about different coding styles, svn, CMake and some Object Oriented C++ as well. 
+
+How was your overall experience with the organization?
+
+My overall experience with the organization was amazing. I had no idea about build systems like CMake when I started out for the project and now I'm confident enough to approach any build system heads on and start working on it. I learned a lot about communicating effectively with your community and to be patient while waiting for an answer. All in all, Open Source is an ocean of knowledge and opportunities. If you're looking for that, just go dive into it.
+
+Where would I start if I wanted to contribute to your Org? (links, irc, mailing list)
+
+IRC : #brlcad (nicks to look out for : brlcad (or tofu), starseeker (or starseek1r), ``Erik, d_rossberg; their names are Sean Morrison, Clifford Yapp, Erik Greenwald and Daniel Rossberg, respectively.)
+Website : brlcad.org
+Wiki : brlcad.org/wiki/
+Mailing Lists (names of important ones) : brlcad-devel, brlcad-commits
+BRL-CAD is hosted on Sourceforge and uses Subversion as the VCS.

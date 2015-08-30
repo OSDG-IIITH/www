@@ -1,0 +1,16 @@
+Hello!
+
+I'm Vatika, Third Year CND student here and I'd like to talk about how I first ventured into Open Source Software Development. The first time I heard about OPW, now Outreachy was through seniors and well, mostly Facebook posts on walls congratulating people for cracking it. Like every other 2nd year student slightly glorified by the hype, I went to the GSoC and OPW project pages and scoured for things I could find that interested me. After failed attempts at gaining interest or any semblance of an understanding of the code of two-three orgs, I landed up at this page:
+
+http://kernelnewbies.org/
+
+This gave me a simple place to start not assuming any prior experience. I installed all required dependencies, cloned the repository, and joined the mailing list and IRC. I think the most exciting part of the journey for me, was the first little change I made (actually just some code refactoring) and then I compiled the kernel successfully and I booted into it knowing that I have contributed to the code :D
+
+From then on, I made changes to various kernel drivers by fixing errors and warnings detected by tools like smatch, sparse, scripts written in SmPl. After that I started looking at the various projects and found the one I liked best, Full Dynticks project, and contacted the mentors. They gave me a bunch of Challenge Questions which were simply meant for making me understand the actual contents of the project itself. Basically the idea of the project was to remove the ticks (periodic software interrupts) on nohz_full cpus and through the tasks I got to know about what ticks are, how they run, how they’re updated so on and so forth. These in general fire at a rate of about a 100-1000 Hz on a system so removing them altogether requires extensive knowledge about the entire timer and scheduling subsection of the kernel!
+
+It feels amazing to have contributed to this project which is about preparing the kernel for HPC workloads. As Linux is getting more and more popular, observing and optimizing Linux for performance become important. It gives me a sense of great pride to have an impact in the development of all these devices having Linux running on them, which will reach masses of people and transform their lives. Being a part of the Linux community has exposed me to high quality organized development and the process has taught me so many important practical aspects of software development in a very interesting manner!
+
+Tl;dr: do your homework and just keep asking questions.
+
+The prerequisites, as such for contributing to the Linux Kernel, are a working knowledge of C and the will to learn. I hadn’t even done the OS course when I had applied and had just learned the relevant concepts through the application process!
+
