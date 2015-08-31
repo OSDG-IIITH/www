@@ -30,6 +30,13 @@
 			"filename": "vatika.txt",
 			"org": "Linux Kernel",
 			"tags": "C, Linux, Kernel"
+		},
+
+		{ "author": "Arushi Vashist", 
+		  "filename": "arushivashist.txt",
+		  "org": "OpenStreetMap",
+		  "tags": "Gis, Django, Python" 
 		}
+
 	]	
 }
