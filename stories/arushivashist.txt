@@ -1,0 +1,22 @@
+I am Arushi Vashist, a third year CSE student in IIIT Hyderabad and part of the OSDG Team. 
+I would like to share my experience with the open source world. I am going to write a few lines about OpenStreetMap http://www.openstreetmap.org, which is a community built by a community of mappers all over the world that contribute and maintain data about roads, trails, cafés, railways etc. 
+
+I was involved with the Humanitarian OpenStreetMap Team (HOT) that creates and provides maps when relief organizations are responding to disasters or political crises. 
+
+HOT has a tool called “the Export Tool”  http://export.hotosm.org/  that is used to create custom OpenStreetMap exports for various regions. This year, it required a complete makeover with additional features like ease of use, user-friendly mechanism to create OSM exports, handling 
+different file formats like .osm, .pdf, .obf in an efficient way etc.
+
+A bit of gis background, python and django framework were the skills required.
+My overall experience with the organization was pretty good, I never thought my contribution could help develop a tool that makes thousands of lives better in critical conditions.
+
+If you are interested and want to know more, read up about whats going around in the community here.. http://www.openstreetmap.org/diary
+Here you will find blogs of the community members, updating about their work daily.
+Once you have made up your mind about making a contribution, have a talk with one of the community members here: https://www.openstreetmap.org/help
+More information here: http://www.openstreetmap.org/about
+
+Git, fork, irc were scary words once upon a time when they were introduced to me in the ITWS lab of first year :’)
+
+Well, one thing that I am thankful about is that irc inculcated a sense of dealing with things patiently in me :P and communicating with people residing in different corners of the world, all with a motive to contribute for a common interest is really awesome :D
+
+Cheers ! 
+
