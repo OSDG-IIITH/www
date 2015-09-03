@@ -11,31 +11,31 @@
 <div id="container">
 <h1>Open Source 101</h1>
 <p>Remember how when we were kids, we'd always create a fuss to have our way?
-Mom's chocolate cookies had to have the chocolate sprinkles, the jacket you're
-getting must be the one you want, no matter what the fashion nazis said, and
-Sundays always meant it's time to visit your cousin. 
+Mom's chocolate cookies had to have the chocolate sprinkles, the jacket you were
+getting had to be the one you wanted (no matter what the fashion nazis said), and
+Sundays always meant that it was time to visit your cousin. 
 </p><p>
 Proprietary software is
 like the the chocolate you buy at a store, which comes wrapped up, and all you
-can do is taste it and then, recommend it to your friends or distribute it to
-your class on your birthday if you like it. Under far-fetched situations, you
+can do is taste it, and then recommend it to your friends or distribute it to
+your class on your birthday if you liked it. Under far-fetched circumstances, you
 may try to reverse-engineer it.
 </p><p>Open Source Software, in contrast, is like the
 scrumptious chocolate batter you come up with when your friends are home and
 you decide to make something awesome! When Mom isn't around, you enter the
 kitchen, look around at everything there, pick out the best looking
 ingredients, mix them in a bowl, take a deep breath and give it a taste. Yuck!
-Tastes awful doesn't it? What do you do? You call your friends to help! But
-Mom can't have mess in the kitchen, so you've got to have some order right? So
+Tastes awful, doesn't it? What do you do? You call your friends to help! But
+Mom can't have a mess in the kitchen, so you've got to have some order, right? So
 you distribute the batter among your friends and let each one experiment and
-taste what they have. You can always merge the best ones and have the most
-delicious batter right? Could you have ever made this batter alone?
+taste what they have made. You can always merge the best ones and have the most
+delicious batter, right? Could you have ever made this batter all by yourself?
 </p>
 
 <p>
 In all its glory, the Open Source Community is a huge family that is based on
-the purest human intention of helping others, contributing to society and in
-general trying to make the world a better place (or the best chocolate batter!
+the purest human intention of helping others, contributing to society and, in
+general, trying to make the world a better place (or the best chocolate batter!
 ). <br />With Open Source software, you have the freedom to run it, study how it
 works and adapt it to suit your own personal needs.
 </p>
@@ -51,7 +51,7 @@ collaborative effort!
 </p>
 <p>
 OpenVPN, Mozilla, Xchat, OpenStack, Tor are just a few of the thousands of
-orgs that have gone the Open Source way :) We hope to find you on the IRC's
+orgs that have gone the Open Source way :) We hope to find you on the IRCs
 soon!
 </p>
 </div>
