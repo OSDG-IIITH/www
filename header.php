@@ -8,7 +8,7 @@
 	<li id="blog_li" class="item anim">OSDG Blog</li>
 	<li id="ranker_li" class="item anim">Github Ranker</li>
 	<a href="stories.php"><li id="stories_li" class="item anim">Member stories</li></a>
-	<li id="calender_li" class="item anim">Calender</li>
+	<li id="calender_li" class="item anim">Calendar</li>
 </ul>
 </td>
 </tr>
