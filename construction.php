@@ -9,14 +9,8 @@
 
 <div id="container">
 
-	<h1>Major Contributors to this website</h1>
-<p><a href="http://mrinaldhar.com">Mrinal Dhar</a>: Website Design</p>
-
-<p><a href="https://www.linkedin.com/in/adhishsingla">Adhish Singla</a>: The OSDG logo</p>
-
-<p><a href="http://vatikaharlalka.wordpress.com">Vatika Harlalka</a>: Static page content</p>
-
-<p><a href="http://amoghbl1.me">Amogh Pradeep</a>: Basically got everyone up there to start working on this website. </p>
+	<h1>This page is still under construction.</h1>
+<p>The website is being developed by some of IIIT-H students. You know how busy college gets. <br /><br />Come back soon to check this page out when it gets built. </p>
 <br />
 <br />
 <br />
