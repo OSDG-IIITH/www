@@ -53,11 +53,14 @@ function render_list(query,search) {
 	});
 }
 
-function sortby(value) {
+function sortby(query,value) {
 	stories["stories"].sort(function(a, b) {
 		return a[value].localeCompare(b[value]);
 	});
-	render_list("",0);
+	if(query=="")
+		render_list("",0);
+	else
+		render_list(query,1);
 }
 
 
