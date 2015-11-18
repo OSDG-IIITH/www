@@ -30,7 +30,7 @@ function render_list(query,search) {
 	$('#stories_list').find('.storyitem').remove();
 	console.log(query);
 	$.each(stories["stories"], function(index, value) {
-		if ((search==1 && value["author"].indexOf(query)>=0) || search==0){		
+		if ((search==1 && (value["author"].indexOf(query)>=0 || value["org"].indexOf(query)>=0)) || search==0){		
 			var item = "";
 			item += "<li class='storyitem' onclick='getStory("+index+")'>"+value["author"]+"<small>"+value["org"]+"</small><br /><span class='tags'>";
 			$.each(stories["stories"][index]["tags"].split(","), function (num, val) {
