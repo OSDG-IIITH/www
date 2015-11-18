@@ -1,6 +1,15 @@
 // var stories = 0;
 var stories;
 load_stories();
+
+function searchby(query){
+	console.log(query);
+	if(query!="")
+		render_list(query,1);
+	else
+		render_list(query,0);
+}
+
 function load_stories() {
 	$.ajax({
 		type: "GET",
@@ -14,20 +23,23 @@ function load_stories() {
 	stories["stories"].sort(function(a, b) {
 		return a["author"].localeCompare(b["author"]);
 	});
-	render_list();
+	render_list("",0);
 }
 
-function render_list() {
+function render_list(query,search) {
 	$('#stories_list').find('.storyitem').remove();
+	console.log(query);
 	$.each(stories["stories"], function(index, value) {
-		var item = "";
-		item += "<li class='storyitem' onclick='getStory("+index+")'>"+value["author"]+"<small>"+value["org"]+"</small><br /><span class='tags'>";
-		$.each(stories["stories"][index]["tags"].split(","), function (num, val) {
-			item += val+" &bull; ";
-		});
-		item += "</span></li>";
-		$('#stories_list').append(item);
-		console.log();
+		if ((search==1 && value["author"].indexOf(query)>=0) || search==0){		
+			var item = "";
+			item += "<li class='storyitem' onclick='getStory("+index+")'>"+value["author"]+"<small>"+value["org"]+"</small><br /><span class='tags'>";
+			$.each(stories["stories"][index]["tags"].split(","), function (num, val) {
+				item += val+" &bull; ";
+			});
+			item += "</span></li>";
+			$('#stories_list').append(item);
+			console.log();
+		}
 	});
 
 	$('#sort_selector tr td').click(function() {
@@ -45,8 +57,9 @@ function sortby(value) {
 	stories["stories"].sort(function(a, b) {
 		return a[value].localeCompare(b[value]);
 	});
-	render_list();
+	render_list("",0);
 }
+
 
 function getStory(index) {
 	$('#stories_content').fadeOut("fast", function() {
