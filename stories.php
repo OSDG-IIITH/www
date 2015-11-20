@@ -14,7 +14,7 @@
 <table id="stories_container">
 	<tr>
 		<td width="30%"><ul id="stories_list">
-			<li class="control_item"><input type="text" id="story_search" onchange="searchby(document.getElementById('story_search').value)" placeholder="Search by Author, Org name or Tags" /></li>
+			<li class="control_item"><input type="text" id="story_search" onKeyUp="searchby(document.getElementById('story_search').value)" placeholder="Search by Author, Org name or Tags" /></li>
 			<li class="control_item"><table id="sort_selector" width="100%"><tr><td onclick="sortby(document.getElementById('story_search').value,'author')" width="50%" class="selected" align="center">Sort by Author</td><td width="50%" align="center" onclick="sortby(document.getElementById('story_search').value,'org')">Sort by Org</td></tr></table></li>
 		</ul></td>
 		<td id="stories_content" width="70%"><h1>Stories speak volumes.</h1><p>As you will discover in your journey through the Open Source Community, each org and each community is different. Some will expect you to be active on the IRC, some on mailing lists. Some will ask you send them pull requests, some will have maintainers who will expect patches on mailing lists which can be reviewed by the entire community.
