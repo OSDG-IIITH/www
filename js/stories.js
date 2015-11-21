@@ -1,5 +1,6 @@
 // var stories = 0;
 var stories;
+var tags;
 load_stories();
 
 function searchby(query){
@@ -19,10 +20,25 @@ function load_stories() {
 			stories = response;
 		}
 	});
-
+	tags=[];
 	stories["stories"].sort(function(a, b) {
 		return a["author"].localeCompare(b["author"]);
 	});
+	$.each(stories["stories"],function(index,value){
+		console.log(index);
+		console.log(value["tags"]);
+		$.each(value["tags"].split(','),function(tag_index,entry) {
+			console.log(entry);
+			if(!(entry.toUpperCase() in tags)){
+				tags[entry.trim().toUpperCase()]=[];
+				tags[entry.trim().toUpperCase()].push(index);
+			}
+			else{
+				tags[entry.trim().toUpperCase()].push(index);
+			}
+		});
+	})
+	console.log(tags);
 	render_list("",0);
 }
 
@@ -30,7 +46,7 @@ function render_list(query,search) {
 	$('#stories_list').find('.storyitem').remove();
 	console.log(query);
 	$.each(stories["stories"], function(index, value) {
-		if ((search==1 && (value["author"].toUpperCase().indexOf(query.toUpperCase())>=0 || value["org"].toUpperCase().indexOf(query.toUpperCase())>=0)) || search==0){		
+		if ((search==1 && ((tags[query.toUpperCase()] && tags[query.toUpperCase()].indexOf(index)>-1) || value["author"].toUpperCase().indexOf(query.toUpperCase())>=0 || value["org"].toUpperCase().indexOf(query.toUpperCase())>=0)) || search==0){		
 			var item = "";
 			item += "<li class='storyitem' onclick='getStory("+index+")'>"+value["author"]+"<small>"+value["org"]+"</small><br /><span class='tags'>";
 			$.each(stories["stories"][index]["tags"].split(","), function (num, val) {
